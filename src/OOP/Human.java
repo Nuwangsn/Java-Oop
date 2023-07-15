@@ -7,11 +7,11 @@ public class Human {
     int heightInInches;
     String eyeColor;
 
-    public Human(String name,int age,int heightInInches,String eyeColor){
-        this.name = name;
-        this.age = age;
-        this.heightInInches=heightInInches;
-        this.eyeColor=eyeColor;
+    public Human(String nameP,int ageP,int heightInInchesP,String eyeColorP){
+        this.name = nameP;
+        this.age = ageP;
+        this.heightInInches=heightInInchesP;
+        this.eyeColor=eyeColorP;
         System.out.println("Human is landing on the Earth to create the World");
         speak(name,age,heightInInches,eyeColor);
     }
