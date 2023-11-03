@@ -7,5 +7,6 @@ public class Earth {
 
         Human tom;
         tom = new Human("Tom Gom",22,5,"Blue");
+        tom.learn("Maths");
     }
 }

@@ -23,5 +23,9 @@ public class Human {
         System.out.println("My eye are "+eyeColor+" color");
     }
 
+    public void learn(String subject){
+        System.out.println("I am learning "+subject+" any suggestions to refer");
+    }
+
 
 }
