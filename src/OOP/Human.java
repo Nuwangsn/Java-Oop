@@ -23,7 +23,7 @@ public class Human {
         System.out.println("walking...");
     }
 
-    public void working(){
+    public void work(){
         System.out.println("I am working as a "+job);
     }
 
