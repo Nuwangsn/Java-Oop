@@ -1,30 +1,34 @@
 package OOP;
 
 public class Human {
-
     String name;
     int age;
-    int heightInInches;
     String eyeColor;
+    int height;
+    String job;
 
-    public Human(String nameP,int ageP,int heightInInchesP,String eyeColorP){
-        this.name = nameP;
-        this.age = ageP;
-        this.heightInInches=heightInInchesP;
-        this.eyeColor=eyeColorP;
-        System.out.println("Human is landing on the Earth to create the World");
-        speak(name,age,heightInInches,eyeColor);
+    public Human(){
+        System.out.println("Human landed");
     }
 
-    public void speak (String name,int age,int heightInInches,String eyeColor){
-        System.out.println("Hi My name is "+name+" good to meet you.");
-        System.out.println("My age is "+age);
-        System.out.println("I am "+heightInInches+" inches tall");
-        System.out.println("My eye are "+eyeColor+" color");
+
+    public void speak(){
+        System.out.println("hey i am "+name);
+        System.out.println("I am "+age+" years old");
+        System.out.println("My have "+eyeColor+" eyes");
+        System.out.println("I am "+height+" inches tall");
     }
 
-    public void learn(String subject){
-        System.out.println("I am learning "+subject+" any suggestions to refer");
+    public void walk(){
+        System.out.println("walking...");
+    }
+
+    public void working(){
+        System.out.println("I am working as a "+job);
+    }
+
+    public void eat(){
+        System.out.println("eating ........");
     }
 
 
